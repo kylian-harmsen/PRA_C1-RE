@@ -1,0 +1,45 @@
+header img{
+    display: flex;
+    width: 200px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+header{
+    background-color: #69197c;
+	padding: 10px;
+}
+main{
+    background-color: rgb(34, 195, 34);
+    padding: 50px;
+}
+footer{
+    background-color: #69197c;
+	padding: 10px;
+}
+.textblock{
+    margin: 25px;
+    background-color: #591ca4;
+    padding: 25px;
+    border-radius: 25px;
+}
+h1, p{
+    color: white;
+}
+.textblocken{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.textblock img{
+    width: 600px;
+}
+.textblock-large{
+    display: grid;
+    grid-column-start: span 2;
+    margin: 25px;
+    padding: 25px;
+    background-color: #591ca4;
+    border-radius: 25px;
+}
+.textblock-large img{
+    width: 1300px;
+}

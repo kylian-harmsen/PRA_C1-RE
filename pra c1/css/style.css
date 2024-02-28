@@ -43,3 +43,8 @@ h1, p{
 .textblock-large img{
     width: 1300px;
 }
+@media screen and (max-width: 992px) {
+    .textblock img, .textblock-large img{
+      width: 50%;
+    }
+}
